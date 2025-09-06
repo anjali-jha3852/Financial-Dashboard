@@ -36,7 +36,7 @@ To run this project on your own machine:
 ```bash
 git clone https://github.com/anjali-jha3852/Financial-Dashboard.git
 
-cd Financial-Dashboard
+cd financial-dashboard
 
 npm install
 
