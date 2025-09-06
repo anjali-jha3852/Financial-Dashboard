@@ -1,36 +1,48 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
-## Getting Started
+# Financial Dashboard
 
-First, run the development server:
+
+**Financial Dashboard**Financial Dashboard is a responsive web app built with Next.js and Tailwind CSS that visualizes financial data through interactive charts and summary cards. It provides insights into AUM, SIPs, clients, and revenue, with support for light/dark mode and PDF report export.
+
+
+
+## 📝 About
+
+This project is built using **Next.js** and **Tailwind CSS**.  
+It displays key financial metrics such as AUM, SIPs, client statistics, and revenue through interactive charts and summary cards.  
+
+---
+
+## ✨ Features
+
+- Real-time visualization of financial data  
+- Interactive charts using **Recharts**  
+- Light/Dark mode toggle using **next-themes**  
+- PDF export functionality for reports  
+- Responsive and aesthetic UI  
+
+---
+
+## 🛠 Installation
+
+Clone the repository and install dependencies:
+
+## 💻 Run Locally
+
+To run this project on your own machine:
+
+1. **Clone the repository**
 
 ```bash
+git clone https://github.com/anjali-jha3852/Financial-Dashboard.git
+
+cd Financial-Dashboard
+
+npm install
+
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+``
+npm install
